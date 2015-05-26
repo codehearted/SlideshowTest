@@ -14,6 +14,14 @@
 		AC5490831B14D2B000D356E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC5490821B14D2B000D356E1 /* Images.xcassets */; };
 		AC5490861B14D2B000D356E1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC5490841B14D2B000D356E1 /* LaunchScreen.xib */; };
 		AC5490921B14D2B000D356E1 /* SlideshowTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5490911B14D2B000D356E1 /* SlideshowTestTests.m */; };
+		AC54909C1B14D2D100D356E1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC54909B1B14D2D100D356E1 /* AVFoundation.framework */; };
+		AC54909F1B14D2F900D356E1 /* SlideshowRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = AC54909E1B14D2F900D356E1 /* SlideshowRenderer.m */; };
+		AC5490A01B14D2F900D356E1 /* SlideshowRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = AC54909E1B14D2F900D356E1 /* SlideshowRenderer.m */; };
+		AC5490A31B14D53600D356E1 /* ImageConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5490A21B14D53600D356E1 /* ImageConverter.m */; };
+		AC5490A41B14D53600D356E1 /* ImageConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5490A21B14D53600D356E1 /* ImageConverter.m */; };
+		AC5490A61B14DA4A00D356E1 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5490A51B14DA4A00D356E1 /* test.png */; };
+		AC5490A71B14DA4A00D356E1 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5490A51B14DA4A00D356E1 /* test.png */; };
+		AC5490A91B14DA6400D356E1 /* SlideshowRendererTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5490A81B14DA6400D356E1 /* SlideshowRendererTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,13 @@
 		AC54908B1B14D2B000D356E1 /* SlideshowTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideshowTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5490901B14D2B000D356E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC5490911B14D2B000D356E1 /* SlideshowTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideshowTestTests.m; sourceTree = "<group>"; };
+		AC54909B1B14D2D100D356E1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AC54909D1B14D2F900D356E1 /* SlideshowRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideshowRenderer.h; path = ../SlideshowRenderer.h; sourceTree = "<group>"; };
+		AC54909E1B14D2F900D356E1 /* SlideshowRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideshowRenderer.m; path = ../SlideshowRenderer.m; sourceTree = "<group>"; };
+		AC5490A11B14D53600D356E1 /* ImageConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageConverter.h; sourceTree = "<group>"; };
+		AC5490A21B14D53600D356E1 /* ImageConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageConverter.m; sourceTree = "<group>"; };
+		AC5490A51B14DA4A00D356E1 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = SOURCE_ROOT; };
+		AC5490A81B14DA6400D356E1 /* SlideshowRendererTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideshowRendererTests.m; path = ../SlideshowTest/SlideshowRendererTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC54909C1B14D2D100D356E1 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +79,7 @@
 		AC5490691B14D2B000D356E1 = {
 			isa = PBXGroup;
 			children = (
+				AC54909B1B14D2D100D356E1 /* AVFoundation.framework */,
 				AC5490741B14D2B000D356E1 /* SlideshowTest */,
 				AC54908E1B14D2B000D356E1 /* SlideshowTestTests */,
 				AC5490731B14D2B000D356E1 /* Products */,
@@ -81,6 +98,11 @@
 		AC5490741B14D2B000D356E1 /* SlideshowTest */ = {
 			isa = PBXGroup;
 			children = (
+				AC5490A51B14DA4A00D356E1 /* test.png */,
+				AC54909D1B14D2F900D356E1 /* SlideshowRenderer.h */,
+				AC54909E1B14D2F900D356E1 /* SlideshowRenderer.m */,
+				AC5490A11B14D53600D356E1 /* ImageConverter.h */,
+				AC5490A21B14D53600D356E1 /* ImageConverter.m */,
 				AC5490791B14D2B000D356E1 /* AppDelegate.h */,
 				AC54907A1B14D2B000D356E1 /* AppDelegate.m */,
 				AC54907C1B14D2B000D356E1 /* ViewController.h */,
@@ -106,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				AC5490911B14D2B000D356E1 /* SlideshowTestTests.m */,
+				AC5490A81B14DA6400D356E1 /* SlideshowRendererTests.m */,
 				AC54908F1B14D2B000D356E1 /* Supporting Files */,
 			);
 			path = SlideshowTestTests;
@@ -202,6 +225,7 @@
 				AC5490811B14D2B000D356E1 /* Main.storyboard in Resources */,
 				AC5490861B14D2B000D356E1 /* LaunchScreen.xib in Resources */,
 				AC5490831B14D2B000D356E1 /* Images.xcassets in Resources */,
+				AC5490A61B14DA4A00D356E1 /* test.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC5490A71B14DA4A00D356E1 /* test.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +247,8 @@
 				AC54907E1B14D2B000D356E1 /* ViewController.m in Sources */,
 				AC54907B1B14D2B000D356E1 /* AppDelegate.m in Sources */,
 				AC5490781B14D2B000D356E1 /* main.m in Sources */,
+				AC54909F1B14D2F900D356E1 /* SlideshowRenderer.m in Sources */,
+				AC5490A31B14D53600D356E1 /* ImageConverter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +257,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC5490921B14D2B000D356E1 /* SlideshowTestTests.m in Sources */,
+				AC5490A01B14D2F900D356E1 /* SlideshowRenderer.m in Sources */,
+				AC5490A41B14D53600D356E1 /* ImageConverter.m in Sources */,
+				AC5490A91B14DA6400D356E1 /* SlideshowRendererTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
